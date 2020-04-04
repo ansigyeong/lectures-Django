@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>게시글 모음</h2>
+    <ul>
+        {% for article in articles %}
+            <li>
+                <h3>게시글 번호: {{ article.pk }}</h3>
+                <h3>게시글 제목: {{ article.title }}</h3>
+                <a href="/articles/{{ articles.pk }}/">게시글 내용 보기</a>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
