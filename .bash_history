@@ -339,3 +339,6 @@ git add .
 cd ..
 pwd
 git init
+git add .
+git commit -m "upload"
+git status
