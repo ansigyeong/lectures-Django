@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>NEW</h2>
+    <form action="{% url 'article:create' %}" method="POST">
+        {% csrf_token %} <!-- from tag 안에만 있으면 됨 -->
+        <label for="title">Title:</label>
+        <input type="text" name="title"><br>
+        <label for="content">Content:</label>
+        <textarea name="content" id="content" cols="30" rows="10"></textarea>
+        <input type="submit" value='작성'>
+    </form>
+    <hr>
+    <a href="{% url article:index %}">BACK</a>
+{% endblock %}

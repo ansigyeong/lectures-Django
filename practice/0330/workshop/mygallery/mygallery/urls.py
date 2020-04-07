@@ -20,5 +20,5 @@ from pages import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('pages/', views.index),
-    path('pages/gallery', views.gallery),
+    path('pages/gallery/', views.gallery),
 ]

@@ -1,107 +1,3 @@
-python -V
-python b.py
-pip install django==2.1.15
-django-admin startproject django_intro
-cd django_intro/
-ls
-mkdir live
-mkdir practice
-cd practice/
-cd practice/
-cd 0326/exercise/
-cd ..
-cd ..
-cd ..
-ls
-cd practice/0326/exercise/
-touch greeting.py
-touch dinner.py
-python greeting.py
-python dinner.py
-pip list
-django-admin startproject django_intro
-cd django_intro/
-ls
-python manage.py runserver 8080
-ls
-python manage.py startapp pages
-python manage.py runserver 8080
-ls
-cd ..
-cd ..
-ls
-cd exercise/
-python manage.py runserver $PORT
-cd ..
-cd ..
-cd
-cd live/
-cd django_intro/
-git init
-ls
-git add .
-git commit -m 'Init'
-git config --global user.name 'An Sigyeong'
-git config --global user.email 'jeongseok95@naver.com'
-ls
-python manage.py startapp pages
-git add .
-git commit -m 'Startapp pages'
-python index.html
-git add .
-git commit -m 'Create index page'
-git push origin master
-git push origin master
-python manage.py runserver 8080
-ls
-cd ls
-cd ..
-ls
-cd ..
-cd ..
-ls
-cd cs50/
-ls
-cd ..
-ls
-cd ubuntu/
-ls
-cd practice/
-ls
-cd 0326/
-cd workshop/
-ls
-django-admin startproject lotto
-django-admin startproject intro
-cd intro
-python manage.py
-python manage.py startapp pages
-python manage.py runserver 8080
-ls
-cd ..
-cd ..
-cd ..
-cd 0326/
-cd exercise/
-django-admin startproject intro
-ls
-cd intro/
-ls
-cd intro/
-ls
-cd ..
-ls
-python manage.py runserver 8080
-python manage.py startapp accounts
-python manage. py startapp posts
-python manage.py startapp posts
-mkdir images
-cd practice/
-mkdir 0327
-ls
-cd 0327/
-mkdir homework workshop
-ls
 cd workshop/
 django-admin startproject intro
 cd intro
@@ -342,3 +238,314 @@ git init
 git add .
 git commit -m "upload"
 git status
+git add .
+git commit -m "upload"
+git push origin master
+git push origin master
+git -v
+git -V
+git remote -v
+git remote -V
+ls
+cd live/
+ls
+cd 00_django_intro/
+ls
+ls
+cd live/
+cd 00_django_intro/
+ls
+ㅣㄴ
+ls
+cd live/
+ls
+cd 00_django_intro/
+ls
+python manage.py runserver 8080
+ls
+python manage.py runserver 8080
+ls
+cd live/
+ls
+cd 00_django_intro/
+ls
+ls
+cd live/
+cd 00_django_intro/
+ls
+python manage.py runserver 8080
+ls
+cd
+ls
+cd practice/
+ls
+cd 0326/
+ls
+cd workshop/
+ls
+cd intro/
+ls
+ls
+cd practice/
+ls
+cd 0327/
+ls
+cd workshop/
+ls
+cd intro/
+ls
+python manage.py runserver 8080
+pip list
+ls
+cd live/
+ls
+cd 00_django_intro/
+ls
+python manage.py startapp boards
+python manange.py runserver 8080
+ls
+python manage.py runserver 8080
+ls
+cd live/
+ls
+cd 00_django_intro/
+ls
+python manage.py runserver 8080
+ls
+cd live/
+cd 00_django_intro/
+ls
+ls
+cd live/
+ls
+cd 00_django_intro/
+ls
+python manage.py runserver 8080
+python manage.py runserver 8080
+ls
+cd ..
+ls
+cd ..
+ls
+cd practice/
+ls
+cd 0330/
+ls
+cd exercise/
+ls
+cd intro/
+ls
+python manage.py runserver 8080
+ls
+cd pr
+cd pra
+cd practice/
+ls
+cd 0330
+ls
+cd exercise/
+ls
+cd intro/
+ls
+ls
+cd practice/
+ㅣㄴ
+ls
+cd 0330/
+ls
+exercise/
+ls
+cd exercise/
+ls
+cd intro/
+ls
+python manage.py runserver 8080
+ls
+cd practice/
+ls
+cd 0330/
+ls
+cd workshop/
+ls
+cd mygallery/
+ls
+python manage.py runserver 8080
+python manage.py runserver 8080
+ㅊㅇ
+cd
+ls
+cd live/
+ls
+cd 00_django_intro/
+ls
+python manage.py runserver 8080
+django-admin startproject django_curd/
+cd
+cd live
+ls
+django-admin startproject django_crud
+cd django_crud/
+python manage.py startapp articles
+python manage.py makemigration
+python manage.py makemigrations
+python manage.py migrate
+cd live/
+cd django_crud/
+python manage.py createsuperuser
+python manga.py runserver 8080
+python manage.py runserver 8080
+pip install django-extensions ipython
+python manage.py shell_plus
+django-extensions shell_plus
+python manage.py shell_plus
+pip install django-extensions ipython
+python manage.py shell_plus
+cd live/django_crud/
+python manage.py runserver 8080
+python manage.py runserver 8080
+cd ..
+ls
+cd 00_django_intro/
+ls
+ls
+cd live/
+ls
+django-admin
+cd django_crud/
+python manage.py runserver 8080
+cd
+ls
+cd live/
+git add .
+git commit -m "upload"
+git push origin master
+git push origin master
+git status
+git remote -V
+git push origin master
+git push master
+git push irigin master
+ls
+cd practice/
+ls
+cd 0406/
+ls
+cd exercise/
+django-admin startproject crud
+cd crud/
+ls
+python manage.py startapp articles
+python manage.py makemigrations
+python manage.py showmigrations
+python manage.py migrate
+python manage.py showmigrations
+python manage.py sqlmigrate articles 0001
+python manage.py runserver 8080
+python manage.py runserver 8080
+python manage.py runserver 8080
+python manage.py runserver 8080
+ls
+cd practice/
+ls
+cd 0406/
+ls
+cd exercise/
+ls
+cd crud/
+ls
+python manage.py runserver 8080
+python manage.py runserver 8080
+python manage.py runserver 8080
+python manage.py runserver 8080
+ls
+cd
+ls
+cd practice/
+ls
+cd 0406/
+ls
+cd exercise/
+ls
+cd crud/
+ls
+ls
+cd live/
+ls
+cd django_crud/
+ls
+ㅣㄴ
+cd live/
+ls
+cd 00_django_intro/
+cd ..
+ls cd django_crud/
+ls
+cd django_crud/
+ls
+cd live/
+django-admin startproject django_form
+cd django_form
+python manage.py runserver 8080
+cd ..
+ls
+cd django_crud/
+python manage.py runserver 8080
+ㅣㄴ
+ls
+cd live/
+ls
+cd django_
+cd django_crud/
+ls
+python managa.py runserver 8080
+ls
+cd practice/
+ls
+cd 0407/
+ls
+cd exercise/
+ls
+cd
+git init
+cd live/
+git init
+git remote -v
+git remote -v
+cd ..
+git remote -v
+git remote rm origin
+git remote
+git remote -V
+git remote -v
+git init
+git remote -v
+git remote -v
+git inti
+git init
+cd
+ls
+cd home
+ls cd ..
+cd ..
+cd ..
+ls
+cd home/
+ls
+cd ubuntu/
+ls
+cd live/
+git init
+git remote
+git remote -v
+git add .
+ls
+cd 00_django_intro/
+git remote -v
+git rm --cached 00_django_intro
+git rm --cached 00_django_intro
+cd ..
+ls
+git rm --cached 00_django_intro
+ls
+cd ..
+git add .
