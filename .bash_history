@@ -1,103 +1,3 @@
-cd workshop/
-django-admin startproject intro
-cd intro
-ls
-python manage.py startapp pages
-python manage.py runserver 8080
-ls
-cd 0327/
-ls practice/
-ls 0327/
-cd practice/
-cd 0327/
-ls
-cd workshop/
-cd intro/
-python manage.py runserver 8080
-python manage.py runserver 8080
-python manage.py runserver 8080
-python manage.py runserver 8080
-ls
-cd practice/
-ls
-mkdir 0330
-cd 0330/
-mkdir exercise
-cd exercise/
-pwd
-django-admin startproject intro
-cd intro/
-ls
-python manage.py startapp pages
-python manage.py runserver 8080
-ls
-cd
-ls
-cd practice/
-ls
-cd 0330/
-ls
-cd workshop/
-pwd
-django-admin startproject mygallery
-cd mygallery/
-ls
-python manage.py startapp pages
-python manage.py runserver 8080
-python manage.py runserver 8080
-python magage.py runserver 8080
-python manage.py runserver 8080
-cd practice/
-ls
-mkdir 0331
-cd 0331/
-ls
-mkdir exercise
-cd exercise/
-django-admin startproject crud
-ls
-cd crud
-ls
-python manage.py startapp articles
-ls
-cd practice/
-ls
-cd 0331
-ls
-cd exercise/
-ls
-cd crud/
-python manage.py makemigrations
-python manage.py makemigrations
-pip install djang-extensions ipython
-pip install djang-extensions python
-python manage.py makemigrations
-python manage.py shell_plus
-python manage.py shell_plus
-python manage.py shell_plus
-python manage.py shell_plus
-python manage.py shell_plus
-pip install django-extensions ipython
-python manage.py makemigrations
-cd practice/
-ls
-cd 0331/
-ls
-cd exercise/
-ls
-cd crud/
-python manage.py makemigrations
-python manage.py showmigrations
-python manage.py migrate
-python manage.py showmigrations
- python manage.py shell_plus
-cd practice/
-ls
-cd 0331
-ls
-cd exercise/
-ls
-cd crud/
 python manage.py runserver 8080
 cd practice/
 cd 0331/
@@ -549,3 +449,79 @@ git rm --cached 00_django_intro
 ls
 cd ..
 git add .
+git add .
+git commit -m "test"
+git push origin master
+remote -v
+git remote -v
+git remote update
+git branch -r
+git remote delete origin
+git remote remove origin
+remote -v
+git remote -v
+ls
+cd live/
+git remote -v
+cd ..
+cd pr
+cd practice/
+git remote -v
+cd ..
+cd projects/
+git remote -v
+git add .
+git commit -m "test"
+cd
+cd live/
+cd
+git push gitlab master
+git push lab master
+git push origin master
+git push oirgin master
+git push origni master
+git remote --delete originm
+git push orgin master
+git remote add origin https://lab.ssafy.com/jeongseok95/lectures.git
+git push origin master
+ls
+cd practice/
+ls
+cd 0407/
+ls
+cd exercise/
+ls
+django-admin startproject curd
+django-admin startproject crud
+cd crud/
+ls
+python manage.py startapp articles
+ls
+python manage.py runserver 8080
+ls
+cd live
+ls
+cd 00_django_intro/
+ls
+cd ..
+cd django_form/
+ls
+python manage.py runserver 8080
+cd 
+git remote -v
+git init
+remote delete origin
+git remote delete origin
+git remote remove origin
+git init
+git remote -v
+git remote rm origin
+git init
+git remote add origin https://github.com/SSSigyeong/lectures-Django.git
+git commit -m "first commit"
+git push origin master
+git remote add irigin https://lab.ssafy.com/jeongseok95/lectures.git
+git commit -m "test"
+git push irigin master
+git pull irigin master
+git push irigin master
