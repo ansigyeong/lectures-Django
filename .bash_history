@@ -531,3 +531,8 @@ git push irigin master
 git config --email: jeongseok95@naver.com
 git config --global user.name "An Sigyeong"
 git config --global user.email "jeongseok95@naver.com"
+git add .
+git commit -m "test"
+git push origin master
+git push irigin master
+git add .
