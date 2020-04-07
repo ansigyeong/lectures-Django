@@ -525,3 +525,9 @@ git commit -m "test"
 git push irigin master
 git pull irigin master
 git push irigin master
+git add .
+git commit -m "0407 exercise"
+git push irigin master
+git config --email: jeongseok95@naver.com
+git config --global user.name "An Sigyeong"
+git config --global user.email "jeongseok95@naver.com"
