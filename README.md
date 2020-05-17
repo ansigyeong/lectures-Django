@@ -5,11 +5,11 @@ YouTube live 수업 실습
 
 # 2. practice
 1. exercise
-    zoom 세션에서 진행하는 실습
+    > zoom 세션에서 진행하는 실습
 2. homework
-    daily homework
+    > daily homework
 3. workshop
-    daily workshop
+    > daily workshop
 
 
 
